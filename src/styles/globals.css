@@ -25,7 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
     .custom-font-size {
-      font-size: 50px;
+      font-size: 20px;
   }
 }
 
