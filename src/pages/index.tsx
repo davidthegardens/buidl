@@ -5,11 +5,7 @@ import React, { useState } from 'react';
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [userAddress, setUserAddress] = useState<string | null>(null);
 
-  const handleAddressRetrieved = (address: string) => {
-    setUserAddress(address);
-  };
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
