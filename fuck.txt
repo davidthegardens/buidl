@@ -1,0 +1,6 @@
+curl -X POST https://workshop-faucet.vercel.app/api/faucet \
+-H "Content-Type: application/json" \
+-H "Origin: https://workshop-faucet.vercel.app" \
+-H "Referer: https://workshop-faucet.vercel.app/faucets" \
+-H "Cookie: _vercel_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg4OTM5MDAsImF1ZCI6IndvcmtzaG9wLWZhdWNldC52ZXJjZWwuYXBwIiwiaGFzaCI6IjNjYmU2ODI2YzNjZGMyZGMyNWQyMWY3ODJkNzdiZWQ3ZDRkZDViMDA1YjNhOTk0NmU1MjBkMTcyNmQ1ZGExMDYiLCJzdWIiOiJwYXNzd29yZC1wcm90ZWN0aW9uIn0.-h1PRR-r0kxMVQEXMswl1NaIagF-JMRR9TFl9OaSGqQ" \
+-d '{"accountAddress": "0x077B78B2793C956080888c4A496Ea81eCa11827F", "tokens": ["LINK", "ETH"], "activeNetwork": {"name": "Ethereum Sepolia", "chainId": 11155111, "chainSlug": "ethereum"}}'
